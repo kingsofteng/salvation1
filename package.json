@@ -1,0 +1,23 @@
+{
+    "name": "rcnlx-handler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ascii-table": "0.0.9",
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "mongoose": "^6.3.0",
+        "reconlx": "^2.5.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
