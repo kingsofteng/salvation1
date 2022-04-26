@@ -1,0 +1,12 @@
+# Discord counting bot
+
+Commands(For administrators only)
+1. Initialize a channel for counting
+mc!set-channel #channel <number>
+  ex; mc!set-channel #count 5000
+2. Update
+mc!update-target #channel <number>
+  ex; mc!update-target #count 10000
+3. Leaderboard
+mc!leaderboard
+  ex; mc!leaderboard
