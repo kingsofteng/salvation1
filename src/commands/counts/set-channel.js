@@ -69,7 +69,6 @@ function initCounting(message, target) {
         
         unlockChannel(message);
         channel.send({content: 'Counting game started. Start with 1, and the target is ' + target + "." });
-        message.channel.send({content: 'Channel unlocked.'});
     })
 }
 
