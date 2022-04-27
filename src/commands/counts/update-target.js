@@ -5,7 +5,7 @@ module.exports = {
     name: 'update-target',
     run: async(client, message, args) => {
         if(!message.member.permissions.has('ADMINISTRATOR')) return message.reply('You do not have permissions.');
-        const target = parseInt(args[1]);
+        const target = parseInt(args[0]);
 
         if(!target) {
             message.reply('Please specificy a target!');
